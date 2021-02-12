@@ -1,0 +1,48 @@
+1. Clean data in Python first
+    missing data:
+[5 rows x 12 columns]
+show_id            0
+type               0
+title              0
+director        1969
+cast             570
+country          476
+date_added        11
+release_year       0
+rating            10
+duration           0
+listed_in          0
+description        0
+
+I deleted director, and removed date_added and rating missing values. Then i deleted where cast & country are BOTH null 
+Replaced NaN countries with Other and Nan cast with Unknown
+Did Chi Square with the dependent variable as
+
+Interesting to note: 
+most popular countries
+United States                                                 2032
+India                                                          777
+United Kingdom                                                 348
+Japan                                                          176
+Canada                                                         141
+South Korea                                                    136
+Spain                                                          117
+
+Most popular casts:
+David Attenborough                                                                                                         18
+Samuel West                                                                                                                10
+Jeff Dunham                                                                                                                 7
+Craig Sechler                                                                                                               6
+Jim Gaffigan                                                                                                                5
+Bill Burr                                                                                                                   5
+Iliza Shlesinger                                                                                                            5
+Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah Bhatia, Sathyaraj, Nassar, Ramya Krishnan, Sudeep                        4
+Kevin Hart                                                                                                                  4
+Bill Hicks                                                                                                                  4
+Damandeep Singh Baggan, Smita Malhotra, Baba Sehgal                                                                         4
+Michela Luci, Jamie Watson, Anna Claire Bartlam, Dante Zee, Eric Peterson                                                   4
+Sam Kinison                                                                                                                 4
+Jay O. Sanders                                                                                                              4
+Sonal Kaushal, Rupa Bhimani, Julie Tejwani, Sabina Malik, Jigna Bharadhwaj, Rajesh Kawa                                     4
+
+
